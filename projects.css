@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans serif;
+}
+
+body {
+  background-color: rgba(202, 235, 219, 0.89);
+}
+
+header {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.firstdiv {
+  border-top: 1px solid black;
+  margin-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+main {
+  margin-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+main h4 {
+  margin-top: 5rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  color: rgb(50, 64, 70);
+  font-size: 3rem;
+}
+
+.secondcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  margin-top: 5rem;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.603);
+}
+
+.card1 img {
+  padding-top: 2rem;
+  width: 90%;
+  height: 308px;
+}
+
+.card1 h3 {
+  margin-top: 1rem;
+}
+
+.card1 p {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.card2 {
+  margin-top: 5rem;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.603);
+}
+
+.card2 img {
+  padding-top: 2rem;
+  width: 90%;
+  height: 308px;
+}
+
+.card2 h3 {
+  margin-top: 1rem;
+}
+
+.card2 p {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.card {
+  margin-top: 5rem;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.603);
+}
+
+.card img {
+  padding-top: 2rem;
+  width: 90%;
+  height: 308px;
+}
+
+.card h3 {
+  margin-top: 1rem;
+}
+
+.card p {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.card4 {
+  margin-top: 5rem;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.603);
+}
+
+.card4 img {
+  padding-top: 2rem;
+  width: 90%;
+  height: 308px;
+}
+
+.card4 h3 {
+  margin-top: 1rem;
+}
+
+.card4 p {
+  margin: 2rem 1rem 0 1rem;
+}
+
+footer {
+  background-color: #2C2D36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  margin-top: 12rem;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+footer div {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  text-align: right;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1201px) {
+  header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header ul li {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  main h4 {
+    text-align: center;
+  }
+  .secondcards {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 3rem;
+    width: 80%;
+    align-self: auto;
+  }
+  footer ul {
+    margin-left: 4rem;
+    font-size: 3rem;
+  }
+  footer div {
+    margin-right: 2rem;
+    margin-bottom: 1.9rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header ul li {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  main h4 {
+    text-align: center;
+  }
+  .secondcards {
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-areas: "secondcards secondcards";
+    gap: 5rem;
+  }
+  footer ul {
+    margin-left: 4rem;
+    font-size: 3rem;
+  }
+  footer div {
+    margin-right: 2rem;
+    margin-bottom: 1.9rem;
+  }
+}/*# sourceMappingURL=projects.css.map */

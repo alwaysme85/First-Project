@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans serif;
+}
+
+body {
+  background-color: rgba(202, 235, 219, 0.89);
+}
+
+header {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.firstsection {
+  border-top: 1px solid black;
+  margin-top: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+h2 {
+  font-weight: 400;
+  margin-top: 3rem;
+  color: rgb(50, 64, 70);
+}
+
+#poza {
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+#text {
+  margin-top: 3rem;
+}
+
+#line {
+  border-top: 1px solid black;
+  margin-top: 3rem;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+.second-label {
+  margin-top: 3rem;
+}
+
+input {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 1rem;
+  outline-color: rgb(108, 202, 233);
+  width: 80%;
+}
+
+input:focus {
+  transform: scale(1.02);
+}
+
+textarea {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 1rem;
+  outline-color: rgb(108, 202, 233);
+  width: 80%;
+}
+
+.btn {
+  margin-top: 4rem;
+  width: 12rem;
+  height: 4rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #2C2D36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  margin-top: 5rem;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+footer div {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  text-align: right;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header ul li {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  input {
+    width: 40%;
+  }
+  textarea {
+    width: 40%;
+  }
+  footer ul {
+    margin-left: 4rem;
+    font-size: 3rem;
+  }
+  footer div {
+    margin-right: 2rem;
+  }
+}/*# sourceMappingURL=contact.css.map */
