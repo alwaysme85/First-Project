@@ -86,7 +86,6 @@ main h4 {
   padding-top: 2rem;
   width: 90%;
   height: 308px;
-  overflow: hidden;
 }
 
 .card h3 {
@@ -146,6 +145,9 @@ footer div {
     gap: 3rem;
     width: 80%;
     align-self: auto;
+  }
+  .card img {
+    overflow: hidden;
   }
   footer ul {
     margin-left: 4rem;
