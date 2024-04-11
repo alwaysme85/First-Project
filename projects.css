@@ -70,58 +70,6 @@ main h4 {
   align-items: center;
 }
 
-.card1 {
-  margin-top: 5rem;
-  border: 2px solid black;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  background-color: rgba(245, 245, 245, 0.603);
-}
-
-.card1 img {
-  padding-top: 2rem;
-  width: 90%;
-  height: 308px;
-}
-
-.card1 h3 {
-  margin-top: 1rem;
-}
-
-.card1 p {
-  margin: 2rem 1rem 0 1rem;
-}
-
-.card2 {
-  margin-top: 5rem;
-  border: 2px solid black;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  background-color: rgba(245, 245, 245, 0.603);
-}
-
-.card2 img {
-  padding-top: 2rem;
-  width: 90%;
-  height: 308px;
-}
-
-.card2 h3 {
-  margin-top: 1rem;
-}
-
-.card2 p {
-  margin: 2rem 1rem 0 1rem;
-}
-
 .card {
   margin-top: 5rem;
   border: 2px solid black;
@@ -138,6 +86,7 @@ main h4 {
   padding-top: 2rem;
   width: 90%;
   height: 308px;
+  overflow: hidden;
 }
 
 .card h3 {
@@ -145,32 +94,6 @@ main h4 {
 }
 
 .card p {
-  margin: 2rem 1rem 0 1rem;
-}
-
-.card4 {
-  margin-top: 5rem;
-  border: 2px solid black;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  background-color: rgba(245, 245, 245, 0.603);
-}
-
-.card4 img {
-  padding-top: 2rem;
-  width: 90%;
-  height: 308px;
-}
-
-.card4 h3 {
-  margin-top: 1rem;
-}
-
-.card4 p {
   margin: 2rem 1rem 0 1rem;
 }
 
