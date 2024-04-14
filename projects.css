@@ -176,8 +176,11 @@ footer div {
     display: grid;
     grid-template-rows: max-content;
     grid-template-areas: "secondcards secondcards";
-    gap: 5rem;
-    width: 80%;
+    gap: 3rem;
+  }
+  .card {
+    width: 90%;
+    margin-left: 1.5rem;
   }
   footer ul {
     margin-left: 4rem;
@@ -189,7 +192,7 @@ footer div {
   }
 }
 @media screen and (min-width: 0px) and (max-width: 600px) {
-  .secondscards {
-    width: 80%;
+  .card {
+    width: 90%;
   }
 }/*# sourceMappingURL=projects.css.map */
